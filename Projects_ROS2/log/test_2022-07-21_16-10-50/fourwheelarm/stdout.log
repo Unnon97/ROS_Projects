@@ -1,0 +1,63 @@
+UpdateCTestConfiguration  from :/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CTestConfiguration.ini
+Parse Config file:/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CTestConfiguration.ini
+   Site: dheeraj-Legion-5-Pro-16ACH6H
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+Create new tag: 20220721-1410 - Experimental
+UpdateCTestConfiguration  from :/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CTestConfiguration.ini
+Parse Config file:/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CTestConfiguration.ini
+Test project /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: copyright
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/copyright.xunit.xml" "--package-name" "fourwheelarm" "--output-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/copyright.xunit.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/src/fourwheelarm':
+1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/copyright.xunit.xml
+1: No repository roots and files found
+1: No problems found, checked 0 files
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/copyright.xunit.xml'
+1/3 Test #1: copyright ........................   Passed    0.27 sec
+test 2
+    Start 2: lint_cmake
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/lint_cmake.xunit.xml" "--package-name" "fourwheelarm" "--output-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/lint_cmake.xunit.xml"
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/src/fourwheelarm':
+2:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/lint_cmake.xunit.xml
+2: 
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/lint_cmake.xunit.xml'
+2/3 Test #2: lint_cmake .......................   Passed    0.24 sec
+test 3
+    Start 3: xmllint
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/xmllint.xunit.xml" "--package-name" "fourwheelarm" "--output-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/xmllint.xunit.xml"
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/src/fourwheelarm':
+3:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/xmllint.xunit.xml
+3: File 'package.xml' is valid
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/xmllint.xunit.xml'
+3/3 Test #3: xmllint ..........................   Passed    1.24 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 3
+
+Label Time Summary:
+copyright     =   0.27 sec*proc (1 test)
+lint_cmake    =   0.24 sec*proc (1 test)
+linter        =   1.75 sec*proc (3 tests)
+xmllint       =   1.24 sec*proc (1 test)
+
+Total Test time (real) =   1.75 sec

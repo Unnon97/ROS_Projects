@@ -1,0 +1,8 @@
+prefix=/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS/install
+
+Name: fourwheelarm
+Description: Description of fourwheelarm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

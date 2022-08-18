@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm -- -j16 -l16
+[0.042s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.221s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.244s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.244s]   By not providing "Findrospy.cmake" in CMAKE_MODULE_PATH this project has
+[0.244s]   asked CMake to find a package configuration file provided by "rospy", but
+[0.244s]   CMake did not find one.
+[0.244s] 
+[0.244s]   Could not find a package configuration file provided by "rospy" with any of
+[0.244s]   the following names:
+[0.245s] 
+[0.245s]     rospyConfig.cmake
+[0.245s]     rospy-config.cmake
+[0.245s] 
+[0.245s]   Add the installation prefix of "rospy" to CMAKE_PREFIX_PATH or set
+[0.245s]   "rospy_DIR" to a directory containing one of the above files.  If "rospy"
+[0.245s]   provides a separate development package or SDK, be sure it has been
+[0.245s]   installed.
+[0.245s] 
+[0.245s] 
+[0.245s] -- Configuring incomplete, errors occurred!
+[0.245s] See also "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CMakeFiles/CMakeOutput.log".
+[0.246s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.249s] Invoked command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm -- -j16 -l16

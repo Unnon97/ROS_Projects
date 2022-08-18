@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (fourwheelarm) JobQueued: {'identifier': 'fourwheelarm', 'dependencies': OrderedDict([('fourwheelarm', '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/install/fourwheelarm')])}
+[0.000887] (fourwheelarm) JobStarted: {'identifier': 'fourwheelarm'}
+[0.048674] (fourwheelarm) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dheeraj'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1845'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dheeraj'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20776'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dheeraj'), ('JOURNAL_STREAM', '8:54695'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dheeraj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dheeraj/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dheeraj-Legion-5-Pro-16ACH6H:@/tmp/.ICE-unix/1880,unix/dheeraj-Legion-5-Pro-16ACH6H:/tmp/.ICE-unix/1880'), ('INVOCATION_ID', '6ed798371ddd453eac5f4a7548d043f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/install/fourwheelarm:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dheeraj/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:954982e9-2ccc-433e-8cb5-c8cc489a1a2f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/dheeraj/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/install/fourwheelarm')]), 'shell': False}
+[0.062390] (fourwheelarm) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CTestConfiguration.ini\n'}
+[0.062652] (fourwheelarm) StdoutLine: {'line': b'Parse Config file:/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CTestConfiguration.ini\n'}
+[0.062836] (fourwheelarm) StdoutLine: {'line': b'   Site: dheeraj-Legion-5-Pro-16ACH6H\n'}
+[0.062985] (fourwheelarm) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.063072] (fourwheelarm) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.063157] (fourwheelarm) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.063239] (fourwheelarm) StdoutLine: {'line': b'Create new tag: 20220721-1410 - Experimental\n'}
+[0.063333] (fourwheelarm) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CTestConfiguration.ini\n'}
+[0.063420] (fourwheelarm) StdoutLine: {'line': b'Parse Config file:/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/CTestConfiguration.ini\n'}
+[0.063504] (fourwheelarm) StdoutLine: {'line': b'Test project /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm\n'}
+[0.063587] (fourwheelarm) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.063752] (fourwheelarm) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.063847] (fourwheelarm) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.063925] (fourwheelarm) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.064001] (fourwheelarm) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.064079] (fourwheelarm) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.064155] (fourwheelarm) StdoutLine: {'line': b'test 1\n'}
+[0.064231] (fourwheelarm) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.064319] (fourwheelarm) StdoutLine: {'line': b'\n'}
+[0.064396] (fourwheelarm) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/copyright.xunit.xml" "--package-name" "fourwheelarm" "--output-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/copyright.xunit.xml"\n'}
+[0.064482] (fourwheelarm) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099748] (-) TimerEvent: {}
+[0.112539] (fourwheelarm) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/src/fourwheelarm':\n"}
+[0.112862] (fourwheelarm) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/copyright.xunit.xml\n'}
+[0.199917] (-) TimerEvent: {}
+[0.300328] (-) TimerEvent: {}
+[0.309368] (fourwheelarm) StdoutLine: {'line': b'1: No repository roots and files found\n'}
+[0.309616] (fourwheelarm) StdoutLine: {'line': b'1: No problems found, checked 0 files\n'}
+[0.321093] (fourwheelarm) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.321337] (fourwheelarm) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/copyright.xunit.xml'\n"}
+[0.330933] (fourwheelarm) StdoutLine: {'line': b'1/3 Test #1: copyright ........................   Passed    0.27 sec\n'}
+[0.331345] (fourwheelarm) StdoutLine: {'line': b'test 2\n'}
+[0.331473] (fourwheelarm) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.331576] (fourwheelarm) StdoutLine: {'line': b'\n'}
+[0.331660] (fourwheelarm) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/lint_cmake.xunit.xml" "--package-name" "fourwheelarm" "--output-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/lint_cmake.xunit.xml"\n'}
+[0.331748] (fourwheelarm) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.377869] (fourwheelarm) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/src/fourwheelarm':\n"}
+[0.378171] (fourwheelarm) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/lint_cmake.xunit.xml\n'}
+[0.400466] (-) TimerEvent: {}
+[0.500798] (-) TimerEvent: {}
+[0.549813] (fourwheelarm) StdoutLine: {'line': b'2: \n'}
+[0.550075] (fourwheelarm) StdoutLine: {'line': b'2: No problems found\n'}
+[0.562351] (fourwheelarm) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.562712] (fourwheelarm) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/lint_cmake.xunit.xml'\n"}
+[0.573637] (fourwheelarm) StdoutLine: {'line': b'2/3 Test #2: lint_cmake .......................   Passed    0.24 sec\n'}
+[0.574016] (fourwheelarm) StdoutLine: {'line': b'test 3\n'}
+[0.574117] (fourwheelarm) StdoutLine: {'line': b'    Start 3: xmllint\n'}
+[0.574203] (fourwheelarm) StdoutLine: {'line': b'\n'}
+[0.574284] (fourwheelarm) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/xmllint.xunit.xml" "--package-name" "fourwheelarm" "--output-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/xmllint.xunit.xml"\n'}
+[0.574380] (fourwheelarm) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.600929] (-) TimerEvent: {}
+[0.620049] (fourwheelarm) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/src/fourwheelarm':\n"}
+[0.620345] (fourwheelarm) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/xmllint.xunit.xml\n'}
+[0.701115] (-) TimerEvent: {}
+[0.801789] (-) TimerEvent: {}
+[0.902520] (-) TimerEvent: {}
+[1.003286] (-) TimerEvent: {}
+[1.104030] (-) TimerEvent: {}
+[1.204815] (-) TimerEvent: {}
+[1.305872] (-) TimerEvent: {}
+[1.406975] (-) TimerEvent: {}
+[1.507742] (-) TimerEvent: {}
+[1.608216] (-) TimerEvent: {}
+[1.708922] (-) TimerEvent: {}
+[1.789688] (fourwheelarm) StdoutLine: {'line': b"3: File 'package.xml' is valid\n"}
+[1.789963] (fourwheelarm) StdoutLine: {'line': b'3: \n'}
+[1.790063] (fourwheelarm) StdoutLine: {'line': b'3: No problems found\n'}
+[1.804225] (fourwheelarm) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[1.804542] (fourwheelarm) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm/test_results/fourwheelarm/xmllint.xunit.xml'\n"}
+[1.809018] (-) TimerEvent: {}
+[1.814122] (fourwheelarm) StdoutLine: {'line': b'3/3 Test #3: xmllint ..........................   Passed    1.24 sec\n'}
+[1.814390] (fourwheelarm) StdoutLine: {'line': b'\n'}
+[1.814566] (fourwheelarm) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 3\n'}
+[1.814657] (fourwheelarm) StdoutLine: {'line': b'\n'}
+[1.814741] (fourwheelarm) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.814834] (fourwheelarm) StdoutLine: {'line': b'copyright     =   0.27 sec*proc (1 test)\n'}
+[1.814948] (fourwheelarm) StdoutLine: {'line': b'lint_cmake    =   0.24 sec*proc (1 test)\n'}
+[1.815028] (fourwheelarm) StdoutLine: {'line': b'linter        =   1.75 sec*proc (3 tests)\n'}
+[1.815107] (fourwheelarm) StdoutLine: {'line': b'xmllint       =   1.24 sec*proc (1 test)\n'}
+[1.815185] (fourwheelarm) StdoutLine: {'line': b'\n'}
+[1.815260] (fourwheelarm) StdoutLine: {'line': b'Total Test time (real) =   1.75 sec\n'}
+[1.836674] (fourwheelarm) CommandEnded: {'returncode': 0}
+[1.837552] (fourwheelarm) JobEnded: {'identifier': 'fourwheelarm', 'rc': 0}
+[1.838363] (-) EventReactorShutdown: {}

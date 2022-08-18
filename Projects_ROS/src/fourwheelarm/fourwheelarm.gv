@@ -1,0 +1,35 @@
+digraph G {
+node [shape=box];
+"chassis" [label="chassis"];
+"armbase" [label="armbase"];
+"armL1" [label="armL1"];
+"leftaxleback" [label="leftaxleback"];
+"leftwheelback" [label="leftwheelback"];
+"leftaxlefront" [label="leftaxlefront"];
+"leftwheelfront" [label="leftwheelfront"];
+"rightaxleback" [label="rightaxleback"];
+"rightwheelback" [label="rightwheelback"];
+"rightaxlefront" [label="rightaxlefront"];
+"rightwheelfront" [label="rightwheelfront"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"chassis" -> "armJbase" [label="xyz: 0 0 0.3 \nrpy: 0 -0 0"]
+"armJbase" -> "armbase"
+"armbase" -> "armJ1" [label="xyz: 0 0 0.05 \nrpy: 0 -0 0"]
+"armJ1" -> "armL1"
+"chassis" -> "leftback" [label="xyz: -0.4 0.25 0.2 \nrpy: 0 -0 0"]
+"leftback" -> "leftaxleback"
+"leftaxleback" -> "leftB" [label="xyz: 0 0.1 0 \nrpy: 0 -0 0"]
+"leftB" -> "leftwheelback"
+"chassis" -> "leftfront" [label="xyz: 0.4 0.25 0.2 \nrpy: 0 -0 0"]
+"leftfront" -> "leftaxlefront"
+"leftaxlefront" -> "leftF" [label="xyz: 0 0.1 0 \nrpy: 0 -0 0"]
+"leftF" -> "leftwheelfront"
+"chassis" -> "rightback" [label="xyz: -0.4 -0.25 0.2 \nrpy: 0 -0 0"]
+"rightback" -> "rightaxleback"
+"rightaxleback" -> "rightB" [label="xyz: 0 -0.1 0 \nrpy: 0 -0 0"]
+"rightB" -> "rightwheelback"
+"chassis" -> "rightfront" [label="xyz: 0.4 -0.25 0.2 \nrpy: 0 -0 0"]
+"rightfront" -> "rightaxlefront"
+"rightaxlefront" -> "rightF" [label="xyz: 0 -0.1 0 \nrpy: 0 -0 0"]
+"rightF" -> "rightwheelfront"
+}

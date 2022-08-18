@@ -1,0 +1,8 @@
+prefix=/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS/devel
+
+Name: driver_base
+Description: Description of driver_base
+Version: 1.6.9
+Cflags: -I/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS/devel/include -I/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS/src/driver_common/driver_base/include -I/usr/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

@@ -1,0 +1,2 @@
+Invoking command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm -- -j16 -l16
+Invoked command in '/home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dheeraj/Desktop/Projects/Learnings/Projects_ROS2/build/fourwheelarm -- -j16 -l16

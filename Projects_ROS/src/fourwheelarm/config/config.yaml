@@ -1,0 +1,55 @@
+fourwheelarm:
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 20
+
+  armJ1_controller:
+    type: effort_controllers/JointPositionController
+    joint: armJ1
+    pid: {p: 0.90, i: 0.3, d: 0.001}
+
+  armJ2_controller:
+    type: effort_controllers/JointPositionController
+    joint: armJ2
+    pid: {p: 0.90, i: 0.3, d: 0.001}
+
+  armJ3_controller:
+    type: effort_controllers/JointPositionController
+    joint: armJ3
+    pid: {p: 0.90, i: 0.3, d: 0.001}
+
+    
+  armBase_controller:
+    type: effort_controllers/JointPositionController
+    joint: armJbase
+    pid: {p: 0.90, i: 0.3, d: 0.001}
+
+  FLWheel_controller:
+    type: effort_controllers/JointPositionController
+    joint: leftF
+    #pid: {p: 0.90, i: 0.3, d: 0.001}
+
+  FRWheel_controller:
+    type: effort_controllers/JointPositionController
+    joint: rightF
+    #pid: {p: 0.90, i: 0.3, d: 0.001}
+  
+  BLWheel_controller:
+    type: effort_controllers/JointPositionController
+    joint: leftB
+    #pid: {p: 0.90, i: 0.3, d: 0.001}
+
+  BRWheel_controller:
+    type: effort_controllers/JointPositionController
+    joint: rightB
+    #pid: {p: 0.90, i: 0.3, d: 0.001}
+
+  TurnFR_controller:
+    type: effort_controllers/JointPositionController
+    joint: leftfront
+    #pid: {p: 0.90, i: 0.3, d: 0.001}
+
+  TurnFL_controller:
+    type: effort_controllers/JointPositionController
+    joint: rightfront
+    #pid: {p: 0.90, i: 0.3, d: 0.001}

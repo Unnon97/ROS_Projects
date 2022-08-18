@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+ <!--    <arg name="paused" default="false"/>
+    <arg name="use_sim_time" default="true"/>
+    <arg name="gui" default="true"/>
+    <arg name="headless" default="false"/>
+    <arg name="debug" default="false"/>
+    <arg name="model" default="$(find fourwheelarm)/robotmodel.urdf"/>
+    <arg name="urdf_robot_file" default="$(find fourwheelarm)/robotmodel.urdf"/>
+    <arg name="robot_name" default="fourwheelarm" /> -->
+    
+       
+    <param name="robot_description" command="cat '$(find fourwheelarm)/urdf/robotmodel.urdf' "/>
+
+    <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" output="screen"
+    args=" -urdf -param robot_description -model fourwheelarm"/>
+
+    <rosparam file="$(find fourwheelarm)/config/config.yaml" command="load"/>
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" ns="/fourwheelarm" 
+    args="armJ1_controller armJ2_controller armJ3_controller armBase_controller FLWheel_controller FRWheel_controller BLWheel_controller BRWheel_controller TurnFR_controller TurnFL_controller joint_state_controller --shutdown-timeout 3"/>  />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+        <remap from="/joint_states" to="/fourwheelarm/joint_states" />
+    </node>
+
+    
+</launch>
+
+    

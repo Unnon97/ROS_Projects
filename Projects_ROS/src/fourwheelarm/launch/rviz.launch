@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <param name="robot_description" command="cat '$(find fourwheelarm)/urdf/robotmodel.urdf' "/>
+    <arg name="gui" default="False" />
+    <param name="use_gui" value="$(arg gui)"/>
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+    <node name="rviz" pkg="rviz" type="rviz" />
+    <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui" output="screen" if="true" />
+
+</launch>
+
+   

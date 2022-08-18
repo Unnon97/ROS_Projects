@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="fourwheelarm.xmllint"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="1.000"
+>
+  <testcase
+    name="package.xml"
+    classname="fourwheelarm.xmllint"/>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

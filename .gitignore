@@ -9,3 +9,7 @@ ros_ws/build/
 ros_ws/logs/
 ros_ws/devel/
 ros_ws/src/urban_road_filter/
+ros_ws/src/rqt_multiplot_plugin/
+test/*
+**/data/**/*.bag
+**/data/**/*.db3

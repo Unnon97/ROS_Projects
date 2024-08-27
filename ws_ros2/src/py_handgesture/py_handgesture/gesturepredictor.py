@@ -55,7 +55,6 @@ class GestureRecognition:
 
     def recognize(self, image, number=-1, mode=0):
 
-        # TODO: Move constants to other place
         USE_BRECT = True
 
         image = cv.flip(image, 1)  # Mirror display
@@ -65,9 +64,7 @@ class GestureRecognition:
         #gesture_id = -1
         gesture = "NONE"
 
-        # Detection implementation
         image = cv.cvtColor(image, cv.COLOR_BGR2RGB)
-
         image.flags.writeable = False
         results = self.hands.process(image)
         image.flags.writeable = True
@@ -144,7 +141,7 @@ class GestureRecognition:
         return landmark_point
 
     def _pre_process_landmark(self, landmark_list):
-        temp_landmark_list = copy.deepcopy(landmark_list)
+        temp_lgesture_predictorandmark_list = copy.deepcopy(landmark_list)
 
         # Convert to relative coordinates
         base_x, base_y = 0, 0
